@@ -1,0 +1,44 @@
+/* Reset */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	/* margin: 0; */
+	padding: 0;
+	font: inherit;
+}
+
+body {
+	min-height: 100vh;
+}
+
+img,
+svg,
+picture,
+video {
+	max-width: 100%;
+}
+
+/* General */
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    height: 10vh;
+    text-align: center;
+    background-color: aquamarine;
+    border: 2px dashed black;
+    padding: 2rem;
+    width: 100%;
+}
